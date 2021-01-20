@@ -1,0 +1,14 @@
+
+<div id="gSifnInWrapper">
+  <span class="label">Sing in width</span>
+  <div id="customBtn" class="customGPlusSignIn">
+    <span #buttonText>sing in </span>
+  </div>
+
+  <div id="name" *ngIf="userInfo">
+    <ul *ngFor="let item of userInfo">
+      <li>{{item}}</li>
+    </ul>
+  </div>
+</div>
+
